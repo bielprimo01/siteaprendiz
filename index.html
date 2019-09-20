@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 Trial Version - http://www.wysiwygwebbuilder.com">
+<link href="siteaprendiz.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.carousel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   var Carousel1Opts =
+   {
+      delay: 3000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'forward',
+      direction: '',
+      pagination: true,
+      pagination_img_default: 'images/page_default.png',
+      pagination_img_active: 'images/page_active.png',
+      start: 0
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carousel('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carousel('next');
+   });
+});
+</script>
+</head>
+<body>
+<a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb14.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250"></a>
+<div id="wb_Carousel1" style="position:absolute;left:1px;top:6px;width:969px;height:440px;z-index:5;overflow:hidden;">
+<div id="Carousel1" style="position:absolute;">
+<div class="frame">
+<div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:969px;height:439px;z-index:0;">
+<img src="images/kimetsu.jpg" id="Image1" alt=""></div>
+</div>
+<div class="frame">
+<div id="wb_Image2" style="position:absolute;left:969px;top:0px;width:969px;height:440px;z-index:1;">
+<img src="images/inuyasha.png" id="Image2" alt=""></div>
+</div>
+<div class="frame">
+<div id="wb_Image3" style="position:absolute;left:1938px;top:0px;width:969px;height:440px;z-index:2;">
+<img src="images/ranma.jpg" id="Image3" alt=""></div>
+</div>
+<div class="frame">
+<div id="wb_Image4" style="position:absolute;left:2907px;top:0px;width:969px;height:440px;z-index:3;">
+<img src="images/yasuo e riven.png" id="Image4" alt=""></div>
+</div>
+</div>
+<div id="Carousel1_back"><a><img alt="Back" src="images/carousel_back.png"></a></div>
+<div id="Carousel1_next"><a><img alt="Next" src="images/carousel_next.png"></a></div>
+</div>
+<div id="NavigationBar1" style="position:absolute;left:242px;top:446px;width:444px;height:30px;z-index:6;">
+<ul class="navbar">
+<li><a href=""><img alt="" src="images/img0001_over.png" class="hover"><span><img alt="" src="images/img0001.png"></span></a></li>
+<li><a href=""><img alt="" src="images/img0002_over.png" class="hover"><span><img alt="" src="images/img0002.png"></span></a></li>
+<li><a href=""><img alt="" src="images/img0003_over.png" class="hover"><span><img alt="" src="images/img0003.png"></span></a></li>
+<li><a href=""><img alt="" src="images/img0004_over.png" class="hover"><span><img alt="" src="images/img0004.png"></span></a></li>
+</ul>
+</div>
+<div id="wb_PhotoGallery1" style="position:absolute;left:22px;top:505px;width:605px;height:230px;z-index:7;">
+<div id="PhotoGallery1">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/inuyasha.png"><img alt="" src="images/tn_inuyasha.png"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/kimetsu.jpg"><img alt="" src="images/tn_kimetsu.jpg"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/ranma.jpg"><img alt="" src="images/tn_ranma.jpg"></a>
+      </div>
+      <div class="clearfix visible-col3"></div>
+      <div class="thumbnail">
+         <a href="images/yasuo e riven.png"><img alt="" src="images/tn_yasuo e riven.png"></a>
+      </div>
+      <div class="clearfix visible-col3"></div>
+   </div>
+</div></div>
+</body>
+</html>
